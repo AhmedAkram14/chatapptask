@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    margin: 10px 0;
+}
+
+.main{
+    background-color: #ddd;
+    /* width : 400px; */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.name {
+    padding: 10px 16px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+}
+
+.name input {
+    background-color: #eee;
+    border: none;
+    color: #aaa;
+    font-weight: bold;
+    font-size: 24px;
+    flex-grow: 1;
+    margin: 0px 12px;
+    outline: none;
+}
+
+.name span i {
+    color: #aaa;
+    font-weight: bold;
+    font-size: 20px;
+}
+.message-container {
+    width: 400px;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+ul li {
+    list-style: none;
+    padding: 8px 12px;
+    margin: 12px;
+    max-width: 250px;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+.message-left {
+    border-radius: 20px 20px 20px 0px;
+    align-self: flex-start;
+    background-color: #fff;
+    box-shadow: -2px -2px 4px #dcdcdc;
+}
+.message-right {
+    border-radius: 20px 20px 0px 20px;
+    align-self: flex-end;
+    color: #eee;
+    background-color: #2d2d2d;
+    box-shadow: -2px -2px 4px #dcdcdc;
+}
+
+ul li span {
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.message-feedback{
+    margin: 0 auto;
+}
+.feedback {
+    font-style: italic;
+    font-size: 14px;
+    padding: 0px 16px 16px 16px;
+    color: #2d2d2d;
+    text-align: center;
+}
+.message-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 0px 12px;
+    font-size: 16px;
+    height: 48px;
+    background-color: #fff;
+}
+
+.send-button {
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 16px;
+    height: 48px;
+    background-color: #2d2d2d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.total-clients {
+    color: #7e7e7e;
+    margin: 12px 0;
+}
